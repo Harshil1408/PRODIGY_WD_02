@@ -1,0 +1,47 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Styling for the stopwatch container */
+.stopwatch-container {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    margin-top: 50px;
+}
+
+#time-display {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.buttons {
+    margin-bottom: 20px;
+}
+
+button {
+    font-size: 1.2em;
+    padding: 10px 20px;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+button:focus {
+    outline: none;
+}
+
+#lap-times {
+    margin-top: 20px;
+}
+
+#lap-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+#lap-list li {
+    font-size: 1.2em;
+    padding: 5px 0;
+}
